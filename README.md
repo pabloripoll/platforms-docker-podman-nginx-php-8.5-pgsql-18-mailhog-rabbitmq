@@ -206,6 +206,7 @@ $ podman machine start
     - Host-gateway controls container-to-host communication.
 <br><br>
 
+
 ## <a id="platforms-setup"></a>Platforms Setup
 
 Create the root `./.env` file from the [./.env.example](./.env.example) and follow its description to configure the platforms required environment variables.
