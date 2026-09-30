@@ -270,9 +270,9 @@ Once variables are set, each Docker platform container environment variables can
   ```
 <br>
 
-Remember to use `make help` command to see all available receipes, so you can execute multiple recipes at once as the following example:
+Remember to use `make help` command to see all available receipes, so you can execute multiple platforms recipes at once as the following example:
 ```bash
-$ yes | make apirest-destroy mongo-destroy redis-destroy mailer-destroy broker-destroy
+$ yes | make apirest-destroy db-destroy mailer-destroy broker-destroy
 ```
 
 Execute the Docker ps command to see the containers that are up and running.
